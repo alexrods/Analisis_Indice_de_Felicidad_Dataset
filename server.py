@@ -2,7 +2,7 @@ import joblib
 import numpy as np
 
 from flask import Flask
-from flask import jsonify, request, render_template, url_for, redirect
+from flask import jsonify, request, render_template
 
 app = Flask(__name__)
 
