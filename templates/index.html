@@ -1,58 +1,60 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>
+		<!-- <title>
 			Prediccion de felicidad
-		</title>
+		</title> -->
 	</head>
 	<body>
-		<form action="/predict" method="POST">
-			<div class="row">
-				<div class="input_field">
-					<label>High</label> 
-					<input type="text" name="high      " class="validate"/>
+		<div class="row">
+			<form action="/predict" method="POST">
+				<div class="row">
+					<div class="input_field">
+						<label>High</label> 
+						<input type="text" name="high      " class="validate"/>
+					</div>
+					<div class="input_field">
+						<label>Low</label>
+						<input type="text" name="low       " class="validate"/>
+					</div>
+					<div class="input_field">
+						<label>GDP</label>
+						<input type="text" name="gdp       " class="validate"/>
+					</div>
+					<div class="input_field">
+						<label>family</label>
+						<input type="text" name="family    " class="validate" />
+					</div>
+					<div class="input_field">
+						<label>lifexp</label>
+						<input type="text" name="lifexp    " class="validate">
+					</div>
+					<div class="input_field">
+						<label>freedom</label>
+						<input type="text" name="freedom   " class="validate">
+					</div>
+					<div class="input_field">
+						<lable>generosity</lable>
+						<input type="text" name="generosity" class="validate" />
+					</div>
+					<div class="input_field">
+						<label>corruption</label>
+						<input type="text" name="corruption" class="validate" />
+					</div>
+					<div class="input_field">
+						<label>dystopia</label>
+						<input type="text" name="dystopia  " class="validate"/>	
+					</div>
 				</div>
-				<div class="input_field">
-					<label>Low</label>
-					<input type="text" name="low       " class="validate"/>
-				</div>
-				<div class="input_field">
-					<label>GDP</label>
-					<input type="text" name="gdp       " class="validate"/>
-				</div>
-				<div class="input_field">
-					<label>family</label>
-					<input type="text" name="family    " class="validate" />
-				</div>
-				<div class="input_field">
-					<label>lifexp</label>
-					<input type="text" name="lifexp    " class="validate">
-				</div>
-				<div class="input_field">
-					<label>freedom</label>
-					<input type="text" name="freedom   " class="validate">
-				</div>
-				<div class="input_field">
-					<lable>generosity</lable>
-					<input type="text" name="generosity" class="validate" />
-				</div>
-				<div class="input_field">
-					<label>corruption</label>
-					<input type="text" name="corruption" class="validate" />
-				</div>
-				<div class="input_field">
-					<label>dystopia</label>
-					<input type="text" name="dystopia  " class="validate"/>	
-				</div>
-			</div>
-			<div class="row center">
+				<div class="row center">
 
-          		<button type="submit" class="btn-large waves-effect waves-light orange">Predict Probability</button>
-      		</div>	
-		</form>
-		<p>
-			El Score de felicidad es: {{ prediction }}
-		</p>
+	          		<button type="submit" class="btn-large waves-effect waves-light orange">Predict Probability</button>
+	      		</div>	
+			</form>
+		</div>
+		
+		<br><h4 align="center"<b>{{pred}}</b></h4><br> 
+		
 	</body>
 
 
