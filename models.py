@@ -19,7 +19,8 @@ class Models:
             'SVR': {
                 'kernel' : ['linear', 'poly', 'rbf'],
                 'gamma' : ['auto', 'scale'],
-                'C' : [1, 5, 10]
+                'C' : [1, 5, 10],
+                'probability': True
             },
             'GRADIENT' : {
                 'loss': ['ls', 'lad'], 
