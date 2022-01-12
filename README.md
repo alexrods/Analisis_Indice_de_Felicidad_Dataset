@@ -13,15 +13,15 @@ El mejor modelo se importa para alimetar una **API** desarrollada en **Flask** l
 
 Con datos extraidos del [World Happiness Report](https://worldhappiness.report/) éste modelo busca predecir con métodos de regresión lineal el "*score*" de felicidad de un país dados la siguiente información:
 
-**High**: Se refiere al valor de *score* más alto obtenido historicamente.
-**Low**: Se refiere al valor de *score* más bajo obtenido historicamente.
-**GDP**: (Gross domestic product) o  producto interno bruto
-**Family**: Se refiere a la percepción de que tan fuertes son los lazos familiares.
-**LifExp**: Se refiere al promedio de la expectativa de vida.
-**Freedom**: Se refiere a la percepción de libertad individual.
-**Generosity**: Se refiere a la percepción de generosidad del país.
-**Corruption**: Se refiere al nivel de corrupción del país.
-**Distopía**: Dado un país hipotético con la gente menos feliz del mundo, esta medición indica que tan alejado está un país, de éste país hipotético.
+* **High**: Se refiere al valor de *score* más alto obtenido historicamente.
+* **Low**: Se refiere al valor de *score* más bajo obtenido historicamente.
+* **GDP**: (Gross domestic product) o  producto interno bruto
+* **Family**: Se refiere a la percepción de que tan fuertes son los lazos familiares.
+* **LifExp**: Se refiere al promedio de la expectativa de vida.
+* **Freedom**: Se refiere a la percepción de libertad individual.
+* **Generosity**: Se refiere a la percepción de generosidad del país.
+* **Corruption**: Se refiere al nivel de corrupción del país.
+* **Distopía**: Dado un país hipotético con la gente menos feliz del mundo, esta medición indica que tan alejado está un país de éste país hipotético.
 
 
 Fuente: [Reporte Mundial de la Felicidad](https://worldhappiness.report/faq/)
@@ -53,4 +53,6 @@ Fuente: [Reporte Mundial de la Felicidad](https://worldhappiness.report/faq/)
 - Este correra en un servidor local en el puerto 8080
 		
 		localhost:8080
+
+![](https://drive.google.com/uc?id=1qHzDVGDH1FQlI7VgPqybvIiv5nllDEIa)
 
